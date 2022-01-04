@@ -16,11 +16,6 @@ p {
 	margin: 1px;
 	line-height: 24px;
 }
-/*PROVJERI STA JE OVO*/
-header {
-	display: block;
-	width: 100%;
-}
 .banner {
 	background-image: url("img/CEHv.jpg");
 	background-position: center;
@@ -29,12 +24,10 @@ header {
 	position: relative;
 	height: 500px;
 }
-/* Add a black background color to the top navigation */
 .topnav {
 	background-color: black;
 	overflow: hidden;
 }
-/* Style the links inside the navigation bar */
 .topnav a {
 	float: left;
 	color: red;
@@ -43,22 +36,18 @@ header {
 	text-decoration: none;
 	font-size: 17px;
 }
-/* Change the color of links on hover */
 .topnav a:hover {
 	background-color: #ddd;
 	color: black;
 }
-/* Add a color to the active/current link */
 .topnav a.active {
 	background-color: #04AA6D;
 	color: white;
 }
-/*LISTA NA HOMEPAGE-U*/
 ul.SpecialOne {
     list-style-type: square;
     display: block;
 }
-/*SLIKA I OPIS SLIKE NA HOMEPAGE*/
 figure {
 	padding: 0.5em;
 	margin: 0 1em 0 1em;
@@ -72,7 +61,6 @@ figcaption {
 img {
 	width: 100%;
 }
-/*CITAT*/
 .q{
 	font-style: italic;
 	font-weight: bold;
@@ -86,11 +74,9 @@ img {
 	padding-left: 8px;
 	padding-right: 5px;
 }
-/*OVO MI NA SVAKOJ STR ODMICE OD RUBA*/
 .Container{
 	margin-left: 10px;
 }
-/*Form CSS*/
 input[type=text], [type=email] {
 	border: 2px solid red;
 	border-radius: 4px;
@@ -130,7 +116,6 @@ input[type=button], input[type=submit], input[type=reset] {
 .Contact{
 	width: 50%;
 }
-/*KONTENJER OD STR S VIJESTIMA ONE PRVE*/
 .news{
 	float: left;
 	width: 100%;
@@ -141,21 +126,13 @@ input[type=button], input[type=submit], input[type=reset] {
 	padding: 0.5em;
 	margin: 0 1em 1em 1em;
 }
-/**/
-.Gallery {
-    width: 10%;
-    margin: 0 auto;
-}
-/*KONTENJER DA MI VIDEO BUDE NA SREDINI STR*/
 .Video {
 	padding-left: 500px;
 }
-/*KONTENJER OD GALERIJE DA MI JU MAKNE OD RUBA*/
 .GallContainer{
 	margin: 100px;
 	margin-top: 0;
 }
-/*KOPIJA GALERIJE ZA NEWS*/
 .galleryNews {
 	margin: 5px;
 	border: 1px solid #ccc;
