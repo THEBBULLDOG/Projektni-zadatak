@@ -148,9 +148,8 @@ input[type=button], input[type=submit], input[type=reset] {
 }
 /*CONTACT PAGE CSS*/
 .Contact{
-	margin-left: 10px;
-	position: relative;
-	width: 1000px
+	margin: auto;
+	width: 80vw
 }
 .map{
 	float: left;
